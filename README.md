@@ -82,6 +82,11 @@ Steps to integrate DevStack with LDAP :
 8) Modify the file by executing the following command
 
     sudo gedit /usr/share/phpldapadmin/lib/TemplateRender.php
+
+  Replace password_hash with password_hash_custom
+
+    $default = $this->getServer()->getValue(‘appearance’,’password_hash’);
+    
     
  You have successfully integrated LDAP with DevStack.
  
