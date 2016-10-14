@@ -1,0 +1,20 @@
+##[[local|localrc]]
+ADMIN_PASSWORD= password
+MYSQL_PASSWORD= password
+RABBIT_PASSWORD= password
+SERVICE_PASSWORD= password
+SERVICE_TOKEN= password
+
+ENABLED_SERVICES=key,napi,ncrt,nobj,ncpu,nnet,ncond,cinder,csch,capi,cvol,nsch,nnovnc,nxvnc,ncauth,horizon,mysql,rabbit,ldap
+KEYSTONE_IDENTITY_BACKEND=ldap
+KEYSTONE_CLEAR_LDAP=yes
+LDAP_PORT=389
+
+LOGFILE=/opt/stack/logs/stackvg.sh.log
+VERBOSE=True
+LOG_COLOR=True
+SCREEN_LOGDIR=/opt/stack/logs
+
+#HOST_IP= <Your IP>
+
+LDAP_PASSWORD= password
